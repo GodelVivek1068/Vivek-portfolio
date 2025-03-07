@@ -1,0 +1,112 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  /* General body styling */
+  body {
+    background-color: #f0f0f0; 
+    color: #333; 
+    font-family: Arial, sans-serif;
+  }
+  
+  /* Header styles */
+  header {
+    background-color: #2c3e50;
+    padding: 20px 0;
+    color: white;
+    text-align: center;
+  }
+  
+  nav ul {
+    list-style: none;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  /* Container for sections */
+  .container {
+    width: 80%;
+    margin: auto;
+    padding: 20px 0;
+  }
+  
+  /* Home Section Styles */
+  #home {
+    height: 500px;
+    background-image: url("homee.jpg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    color: rgb(243, 236, 236);
+    padding: 60px 0;
+    text-align: center;
+  }
+  
+  .profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+  }
+  
+  /* About Section Styles */
+  #about {
+    height: 500px;
+    background-image: url("about.jpeg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding: 20px 0;
+    text-align: center;
+    color: black;
+  }
+  
+  /* Projects Section Styles */
+  #projects {
+    height: 600px;
+    background-image: url("projectpage.jpeg");
+    background-position: center; 
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed;
+    padding: 20px 0;
+    color: rgb(244, 236, 236);
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .project {
+    margin-bottom: 40px;
+    padding-top: 20px;
+  }
+  
+  /* Contact Section Styles */
+  #contact {
+    /* Dark background */
+    
+    color: black;
+    padding: 30px 0;
+    text-align: center;
+  }
+  
+  footer {
+    
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
